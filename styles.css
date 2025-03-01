@@ -17,7 +17,6 @@ body {
   grid-template-columns: repeat(2, 1fr);
   padding: 40px;
   grid-gap: 40px;
-  /* column-gap: 100px; */
 }
 .navbar-container {
   padding-left: 40px;
@@ -48,9 +47,6 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* padding-left: 40px; */
-  /* padding-right: 40px; */
-  /* margin-top: 40px; */
 }
 
 .showcase-text > h2:first-child {
@@ -118,7 +114,6 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* height: 150px; */
 }
 .weather-detail-item > div {
   display: flex;
@@ -129,7 +124,6 @@ body {
 .weather-detail-item > p:first-child {
   color: #8f8f8f;
   font-weight: 600;
-  /* font-size: 0.585rem; */
 }
 .weather-detail-item > div > p {
   color: #2a394f;
@@ -181,7 +175,6 @@ span {
   text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
-  /* gap: 20px; */
 }
 .day-weather-item > div > p:first-child {
   font-weight: 500;
