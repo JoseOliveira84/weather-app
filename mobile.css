@@ -19,6 +19,9 @@
     margin-right: 0px;
     margin-bottom: 10px;
   }
+  .custom-input {
+    width: 100%;
+  }
   .showcase-container {
     justify-content: spapce-between;
 
