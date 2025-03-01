@@ -13,6 +13,8 @@
     }    
     .navbar-container {
        flex-direction: column;
+       padding-left: 20px;
+       padding-right: 20px;
     }  
     .navbar-container img {
         margin-right: 0px;
