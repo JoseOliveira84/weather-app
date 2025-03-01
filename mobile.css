@@ -1,0 +1,70 @@
+@media  (max-width: 1080px) {
+  
+    .app-container {
+        grid-template-columns: 100%;
+        padding: 20px;
+        grid-column-gap: 0px;
+        grid-row-gap: 40px;
+    }
+    .weather-details-container {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }    
+    .navbar-container {
+       flex-direction: column;
+    }  
+    .navbar-container img {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .showcase-container {
+        justify-content: spapce-between;
+
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      
+      .showcase-text > h2:first-child {
+        font-size: 3rem;
+        
+      }
+      .showcase-text > h2:last-child {
+        font-size: 3.5rem;
+        
+      }
+      .showcase-text > p {
+        font-size: 0.825rem;
+        margin-bottom: 10px;
+      }
+      .showcase-container > div > img {
+        width: 180px;
+      }
+      .hourly-forecast-container {
+                padding: 20px;
+                overflow-x: scroll;
+                justify-content: space-between;
+                gap: 30px;
+      }
+      .forecast-item > p:first-child {
+        font-size: 0,825rem;
+      }
+      .forecast-item > p:last-child {
+        font-size: 1.5rem;
+        
+      }
+      .forecast-item > img {
+        weight: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+      }
+      .weekly-forecast-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background: #fff;
+        justify-content: space-between;
+        border-radius: 40px;
+        padding: 40px;
+      }
+}
